@@ -83,7 +83,7 @@ public class Shop {
     private Ratings ratings;
     @SerializedName("favorite")
     @Expose
-    private Favorite favorite;
+    private Favourite favorite;
 
     @SerializedName("categories")
     @Expose
