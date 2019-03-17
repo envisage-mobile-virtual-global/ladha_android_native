@@ -8,6 +8,7 @@ import io.reactivex.disposables.CompositeDisposable;
 
 public interface BaseFragment<V extends MvpView> implements MvpPresenter<V> {
     public CompositeDisposable compositeDisposable;
+    
     public BasePresenter() {
         compositeDisposable=new CompositeDisposable();
     }
